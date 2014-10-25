@@ -4,6 +4,8 @@ monolog-gitter-im
 Sends [monolog](https://github.com/Seldaek/monolog) notifications through the [gitter.im](https://gitter.im) api to a
 targeted gitter chat room.
 
+![screen shot 2014-10-25 at 1 02 42 pm](https://cloud.githubusercontent.com/assets/365247/4780962/0068fc30-5c82-11e4-81de-16ba0c279308.png)
+
 #### Basic usage
 
 ```
