@@ -4,6 +4,7 @@
 
 # Composer
 composer.phar
+composer.lock
 vendor/
 
 scratch/
