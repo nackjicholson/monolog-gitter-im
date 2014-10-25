@@ -1,6 +1,6 @@
 <?php
 
-namespace Nack\Monolog\Formatter;
+namespace Nack\Monolog\Handler;
 
 use Monolog\Handler\AbstractProcessingHandler;
 

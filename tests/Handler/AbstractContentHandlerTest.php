@@ -1,6 +1,6 @@
 <?php
 
-namespace Nack\Monolog\Formatter;
+namespace Nack\Monolog\Handler;
 
 class AbstractContentHandlerTest extends \PHPUnit_Framework_TestCase
 {
