@@ -52,12 +52,12 @@ class GitterImHandler extends AbstractContentHandler
     protected function send($content)
     {
         $url = sprintf('https://%s/%s/%s/%s', self::HOST, self::ROOMS_ENDPOINT, $this->roomId, self::MESSAGES_ENDPOINT);
-        $data = json_encode(['text' => $content]);
-        $headers = [
+        $data = json_encode(array('text' => $content));
+        $headers = array(
             'Content-Type: application/json',
             'Accept: application/json',
             "Authorization: Bearer {$this->token}"
-        ];
+        );
 
         $ch = curl_init();
 
