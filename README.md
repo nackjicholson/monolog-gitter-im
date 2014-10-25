@@ -30,7 +30,7 @@ Wrapping the `GitterImHandler` with monolog's built in `BufferHandler` makes it 
 to only make one buffered message per execution of your program. All logs which are to be sent to Gitter are
 buffered and then when the program exits, they are all sent to the chat room as one batched message.
 
-Setup for that would look like this:
+Setup is straight-forward:
 
 ```php
 $gitterHandler = new GitterImHandler('apiToken', 'roomId');
