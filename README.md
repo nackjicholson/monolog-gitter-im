@@ -8,7 +8,7 @@ targeted gitter chat room.
 
 #### Basic usage
 
-```
+```php
 // Default level is Logger::CRITICAL
 $gitterHandler = new GitterImHandler('apiToken', 'roomId');
 
@@ -32,7 +32,7 @@ buffered and then when the program exits, they are all sent to the chat room as 
 
 Setup for that would look like this:
 
-```
+```php
 $gitterHandler = new GitterImHandler('apiToken', 'roomId');
 $bufferHandler = new BufferHandler($gitterHandler);
 
