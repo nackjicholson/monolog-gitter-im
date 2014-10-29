@@ -12,7 +12,7 @@ targeted gitter chat room.
 
 With [composer](https://getcomposer.org):
 
-`composer require "nackjicholson/monolog-gitter-im=dev-master"`
+`composer require "nackjicholson/monolog-gitter-im=1.x"`
 
 or in `composer.json`:
 
