@@ -1,6 +1,8 @@
 monolog-gitter-im
 =================
 
+[![Build Status](https://travis-ci.org/nackjicholson/monolog-gitter-im.svg?branch=master)](https://travis-ci.org/nackjicholson/monolog-gitter-im)
+
 Sends [monolog](https://github.com/Seldaek/monolog) notifications through the [gitter.im](https://gitter.im) api to a
 targeted gitter chat room.
 
