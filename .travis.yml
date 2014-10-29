@@ -5,4 +5,4 @@ php:
   - 5.3
 install:
   - composer install
-script: phpunit tests/
+script: phpunit --bootstrap=tests/bootstrap.php tests/
