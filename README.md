@@ -10,9 +10,6 @@ targeted gitter chat room.
 
 #### Install
 
-Be aware that this extension is still not even v0.1, it's only available via dev-master.
-As soon as I am able to get Travis-CI builds running, it will likely get tagged with a version.
-
 With [composer](https://getcomposer.org):
 
 `composer require "nackjicholson/monolog-gitter-im=dev-master"`
@@ -21,7 +18,7 @@ or in `composer.json`:
 
 ```json
 "require": {
-    "nackjicholson/monolog-gitter-im": "dev-master"
+    "nackjicholson/monolog-gitter-im": "1.x"
 }
 ```
 
